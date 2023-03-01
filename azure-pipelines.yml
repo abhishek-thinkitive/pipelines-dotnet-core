@@ -22,8 +22,3 @@ steps:
   inputs:
     command: 'build'
     projects: '**/pipelines-dotnet-core.csproj'
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'run'
-    projects: '**/pipelines-dotnet-core.csproj'
